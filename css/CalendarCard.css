@@ -1,0 +1,67 @@
+* {
+  color: rgba(206, 237, 250, 0.386);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(1deg, #000046, #17a0c6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calendar {
+  width: 440px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#date,
+#day,
+#month,
+#year {
+  /* margin: 1px; */
+  border-radius: 20px;
+  align-content: center;
+  text-align: center;
+  border: 1px solid rgb(189, 200, 230);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#date {
+  height: 240px;
+  width: 240px;
+  font-size: 150px;
+  line-height: 60px;
+}
+
+#day {
+  font-size: 30px;
+  width: 160px;
+  height: 240px;
+}
+
+#month {
+  font-size: 50px;
+  height: 160px;
+  width: 280px;
+}
+
+#year {
+  font-size: 20px;
+  height: 160px;
+  width: 120px;
+}
