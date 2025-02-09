@@ -24,7 +24,7 @@ A simple, real-time calendar that displays the current date, day, month, and yea
 
 ## Demo
 
-[Live Demo](#) (if applicable)
+[https://bhrigukd.github.io/TodaysTime/](#) (if applicable)
 
 ## License
 
